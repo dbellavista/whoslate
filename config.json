@@ -1,0 +1,18 @@
+{
+  "db": {
+    "uri": "mongodb://127.0.0.1/Whoslate"
+  },
+  "updateTimeout": 30,
+  "viaggiatreno": {
+    "concurrent": 10,
+    "timeout": 10,
+    "uri": "http://viaggiatreno.it",
+    "api": {
+      "base": "/viaggiatrenonew/resteasy/viaggiatreno",
+      "trainStatus": "/andamentoTreno/{:originId}/{:trainId}",
+      "stations": "/elencoStazioni/0",
+      "departures": "/partenze/{:stationId}/{:date}",
+      "arrivals": "/arrivi/{:stationId}/{:date}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "whoslate",
+  "version": "0.0.1-dev",
+  "description": "Trenitalia data scraper and analyzer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbellavista/whosalte"
+  },
+  "keywords": [
+    "trenitalia",
+    "late",
+    "ritardo",
+    "treno",
+    "viaggiatreno"
+  ],
+  "author": "Daniele Bellavista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbellavista/whosalte/issues"
+  },
+  "homepage": "https://github.com/dbellavista/whosalte",
+  "dependencies": {
+    "async-q": "^0.2.2",
+    "moment": "^2.9.0",
+    "mongoose": "^3.8.24",
+    "request": "^2.53.0"
+  }
+}
